@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700&display=swap");
+
+* {
+  /* font-family: "Kufam", sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nasr,
+.kelebihan h1,
+.paket h1,
+.paket .card p,
+strong,
+.airways h3,
+.fasilitas h1,
+.fasilitas .card-title {
+  font-family: "Kufam", sans-serif;
+}
+
+.kelebihan {
+  background-color: #f3fffe;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.paket {
+  padding-top: 3rem;
+  padding-bottom: 4.5rem;
+}
+
+.paket img {
+  border-radius: 10px;
+}
+
+.paket .pangkat {
+  font-size: 13px;
+  color: #ffc265;
+}
+
+.badge-card {
+  background-color: #c1fffa;
+  color: #1da599;
+}
+
+.font-nasr {
+  color: #1da599;
+}
+
+.airways p {
+  font-size: 20px;
+}
+
+.airways .star {
+  height: 15px;
+  width: 15px;
+}
+
+.airways .badge-star {
+  width: 110px;
+}
+
+.fasilitas {
+  background-color: #f3fffe;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.fasilitas .card img {
+  height: 36px;
+  width: 36px;
+}
+
+.fasilitas .card p {
+  font-size: 14px;
+}
+
+
+/* MARQUEE */
+:root {
+  --marquee-width: 80vw;
+  --marquee-height: 20vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 5;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  color: #eee;
+  overflow: hidden;
+  position: relative;
+  width: 52rem;
+}
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+}
+.marquee:after {
+  right: 0;
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+/* .marquee-content:hover {
+  animation-play-state: paused;
+} */
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+.marquee-content img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+.marquee-content .garuda {
+  width: 17rem;
+  height: 5rem;
+}
+.marquee-content .lion {
+  width: 15rem;
+  height: 5rem;
+}
+.marquee-content .saudi {
+  width: 19rem;
+  height: 5rem;
+}
+.marquee-content .emirates {
+  width: 10rem;
+  height: 6rem;
+}
+.marquee-content .qatar {
+  width: 14rem;
+  height: 5rem;
+}
+
+.marquee-content li img {
+  width: 100%;
+  /* height: 100%; */
+  border: 2px solid #eee;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 12px; }
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 16vh;
+    --marquee-elements-displayed: 3;
+  }
+  .marquee:before, .marquee:after { width: 5rem; }
+}
