@@ -73,7 +73,7 @@
   <!-- Navbar -->
 
   <!-- jumbotron -->
-  <div class="container pt-5 mb-11">
+  <div class="container pt-5 mb-9">
     <div class="row">
       <div class="col-md-6 mb-5">
         <span class="badge rounded-pill badge-info p-2 px-4 mb-4">No. 1 in Indonesia</span>
@@ -82,8 +82,7 @@
         <button type="button" class="btn btn-warning btn-lg mt-2 text-capitalize">Contact Us</button>
       </div>
       <div class="col-md-6">
-        <!-- <div class="w-100 h-50 d-flex justify-content-center rounded-3 bg-info"></div> -->
-        <img class="img-fluid position-absolute h-75" src="img/Image Hero.png" alt="">
+        <img class="mt-0" src="img/Image Hero.png" alt="">
       </div>
     </div>
   </div>
@@ -274,7 +273,7 @@
   <!-- testimoni -->
   <div class="container py-5 my-4 px-5 px-md-0 testi">
     <div class="row">
-      <div class="col-md-12 text-end">
+      <div class="col-md-12 text-center mb-4">
         <div class="main">
           <h1 class="fw-bolder">Testimonials from our <br> customers</h1>
           <p class="fs-5">We have 100.000+ customers, here are our customer <br> testimonials</p>
