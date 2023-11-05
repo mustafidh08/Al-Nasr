@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,54 +15,56 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 </html>
+
 <body>
-    
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-0">
-      <!-- Container wrapper -->
-      <div class="container">
-        <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
-          <img src="img/Logo (1).png" height="50" alt="MDB Logo" loading="lazy" />
-        </a>
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img src="img/Logo (1).png" height="50" alt="MDB Logo" loading="lazy" />
+            </a>
 
-        <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <!-- Left links -->
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item me-3">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="product.php">Packages</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link active text-warning" href="#">Cart</a>
-            </li>
-          </ul>
-          <!-- Left links -->
-        </div>
-        <!-- Collapsible wrapper -->
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="product.php">Packages</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active text-warning" href="#">Cart</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
 
-        <!-- Right elements -->
-        <div class="d-flex align-items-center">
-          <!-- button -->
-            <button type="button" class="btn btn-warning shadow-0 text-capitalize">Contact Us</button>
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- button -->
+                <button type="button" class="btn btn-warning shadow-0 text-capitalize">Contact Us</button>
 
-        <!-- Right elements -->
-      </div>
-      <!-- Container wrapper -->
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
 
     <!-- payment -->
-    <div class="container py-5">
+    <div class="container py-5 pb-5 mb-5">
         <div class="row">
             <div class="col-md-5 border border-1 rounded py-4 px-4">
                 <div class="d-flex flex-row justify-content-between">
@@ -71,24 +74,55 @@
                 <hr class="m-0">
                 <div class="scroll">
                     <div class="mt-3">
-                            <div style="height: 20%;" class="scroll d-flex flex-row justify-content-between bg-light pt-3 px-3 rounded-4">
-                                <div class="col-md-4 mt-2">
-                                    <button class="bg-transparent border-0"><i class="far fa-trash-can text-success"></i></button>
-                                    <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1 me-1">-</button>
-                                    <input class="border-0 bg-light" style="width: 20px;" type="text" id="quantity-input" value="1">
-                                    <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1">+</button>
-                                </div>
-                                <div class="main">
-                                    <p class="mb-0">Al Nasr Special Umrah 9 Days</p>
-                                    <p style="font-size: 13px;" class="mt-0 text-end text-muted">$ 1,950</p>
-                                </div> 
+                        <div style="height: 20%;" class="scroll d-flex flex-row mb-3 justify-content-between bg-light pt-3 px-3 rounded-4">
+                            <div class="col-md-4 mt-2">
+                                <button class="bg-transparent border-0"><i class="far fa-trash-can text-success"></i></button>
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1 me-1">-</button>
+                                <input class="border-0 bg-light" style="width: 20px;" type="text" id="quantity-input" value="1">
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1">+</button>
                             </div>
+                            <div class="main">
+                                <p class="mb-0">Al Nasr Special Umrah 9 Days</p>
+                                <p style="font-size: 13px;" class="mt-0 text-end text-muted">$ 1,950</p>
+                            </div>
+                        </div>
+                        <div style="height: 20%;" class="scroll d-flex flex-row mb-3 justify-content-between bg-light pt-3 px-3 rounded-4">
+                            <div class="col-md-4 mt-2">
+                                <button class="bg-transparent border-0"><i class="far fa-trash-can text-success"></i></button>
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1 me-1">-</button>
+                                <input class="border-0 bg-light" style="width: 20px;" type="text" id="quantity-input" value="1">
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1">+</button>
+                            </div>
+                            <div class="main">
+                                <p class="mb-0">Al Nasr Special Umrah 9 Days</p>
+                                <p style="font-size: 13px;" class="mt-0 text-end text-muted">$ 1,950</p>
+                            </div>
+                        </div>
+                        <div style="height: 20%;" class="scroll d-flex flex-row mb-3 justify-content-between bg-light pt-3 px-3 rounded-4">
+                            <div class="col-md-4 mt-2">
+                                <button class="bg-transparent border-0"><i class="far fa-trash-can text-success"></i></button>
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1 me-1">-</button>
+                                <input class="border-0 bg-light" style="width: 20px;" type="text" id="quantity-input" value="1">
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1">+</button>
+                            </div>
+                            <div class="main">
+                                <p class="mb-0">Al Nasr Special Umrah 9 Days</p>
+                                <p style="font-size: 13px;" class="mt-0 text-end text-muted">$ 1,950</p>
+                            </div>
+                        </div>
+                        <div style="height: 20%;" class="scroll d-flex flex-row mb-3 justify-content-between bg-light pt-3 px-3 rounded-4">
+                            <div class="col-md-4 mt-2">
+                                <button class="bg-transparent border-0"><i class="far fa-trash-can text-success"></i></button>
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1 me-1">-</button>
+                                <input class="border-0 bg-light" style="width: 20px;" type="text" id="quantity-input" value="1">
+                                <button style="width: 15%; height: 35%;" class="btn-floating bg-transparent border border-1">+</button>
+                            </div>
+                            <div class="main">
+                                <p class="mb-0">Al Nasr Special Umrah 9 Days</p>
+                                <p style="font-size: 13px;" class="mt-0 text-end text-muted">$ 1,950</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <hr class="mt-5">
-                <div class="d-flex flex-row justify-content-between">
-                    <p class="text-muted" style="font-size: 13px;">$ 3,900</p>
-                    <p>Umrah 9 Days</p>
                 </div>
                 <hr class="m-0 mb-4">
                 <div class="d-flex flex-row justify-content-between">
@@ -118,24 +152,57 @@
                         </div>
                     </div>
                 </a>
-                
+
                 <div class="bank border border-1 d-flex flex-row justify-content-center rounded py-4 mt-4">
                     <div class="bank-img">
                         <div class="d-flex flex-row justify-content-center">
-                           <p class="me-2">Payment</p> <img height="20" src="img/card.png" alt=""> 
+                            <p class="m-0">Payment</p> <img height="20" src="img/card.png" alt="">
                         </div>
-                        <a href="">
-                            <img src="img/Bank 2.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/Bank 3.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/Bank.png" alt="">
-                        </a>
+                        <div class="wadah">
+                            <form action="#">
+                                <input type="radio" name="payment" id="visa">
+                                <input type="radio" name="payment" id="mastercard">
+                                <input type="radio" name="payment" id="paypal">
+                                <input type="radio" name="payment" id="AMEX">
+
+
+                                <div class="category">
+                                    <label id="kotak" for="visa" class="visaMethod">
+                                        <div class="imgName">
+                                            <div class="imgContainer visa">
+                                                <img class="gambar" src="https://i.ibb.co/vjQCN4y/Visa-Card.png" alt="">
+                                            </div>
+                                            <span class="name">VISA</span>
+                                        </div>
+                                        <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
+                                    </label>
+
+                                    <label id="kotak" for="mastercard" class="mastercardMethod">
+                                        <div class="imgName">
+                                            <div class="imgContainer mastercard">
+                                                <img class="gambar" src="https://i.ibb.co/vdbBkgT/mastercard.jpg" alt="">
+                                            </div>
+                                            <span class="name">Mastercard</span>
+                                        </div>
+                                        <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
+                                    </label>
+
+                                    <label id="kotak" for="paypal" class="paypalMethod">
+                                        <div class="imgName">
+                                            <div class="imgContainer paypal">
+                                                <img class="gambar" src="https://i.ibb.co/KVF3mr1/paypal.png" alt="">
+                                            </div>
+                                            <span class="name">Paypal</span>
+                                        </div>
+                                        <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -187,7 +254,7 @@
                         <h6 class="text-uppercase fw-bold mb-4">
                             <img src="img/Logo Text.png" alt="">
                         </h6>
-                        <p   class="p">
+                        <p class="p">
                             Here you can use rows and columns to organize your footer content. Lorem ipsum
                             dolor sit amet, consectetur adipisicing elit.
                         </p>
@@ -239,7 +306,7 @@
                         <h6 class="text-uppercase fw-bold mb-4 p">Contact</h6>
                         <p class="p"><i class="fas fa-home me-3 text-secondary"></i> Pesantren Al-Nasr, Jalan Pahlawan No. 123, Kecamatan Sukabumi, Kota Sukabumi, Jawa Barat 43121, Indonesia</p>
                         <p class="p"><i class="fas fa-envelope me-3 text-secondary"></i> info@pesantrenalnasr.com</p>
-                        <p class="p"><i class="fas fa-phone me-3 text-secondary"></i> +62 123 456 7890</p>    
+                        <p class="p"><i class="fas fa-phone me-3 text-secondary"></i> +62 123 456 7890</p>
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -261,4 +328,5 @@
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
 </body>
+
 </html>
